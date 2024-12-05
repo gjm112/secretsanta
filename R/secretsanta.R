@@ -7,7 +7,8 @@ secretsanta <- function(names, sean = FALSE){
   #The "sean" method to always create a cycle
   if (sean){
   temp <- sample(names)
-  out <- data.frame(secretsanta = temp, recipient = c(temp[-1], temp[1]))
+  out <- data.frame(secretsanta = temp,
+                    recipient = c(temp[-1], temp[1]))
   return(out)
   }
 

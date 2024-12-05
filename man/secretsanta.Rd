@@ -2,54 +2,45 @@
 \alias{secretsanta}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-A Capitalized Title (ideally limited to 65 characters)
+Secret Santa List Generator
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Takes as input a vector of friends, family, cowrokers, randos, etc. and returns a data.frame with a recipient.
 }
 \usage{
 secretsanta(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
-}
+  \item{names}{input character vector}
+  \item{sean}{boolean: Should we use Sean's method or not}
+
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+   jrwasjdfglkv ajs fgpo wqrghwaosj gv asidpgkaws
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+Returns a data frame of secret santa list.
 }
 \references{
-%% ~put references to the literature/web site here ~
+Kerr, 2024 "Ho! Secret Santa!" Journal of Holiday Computer Science.
 }
 \author{
-%%  ~~who you are~~
+Kerr, S. P.
 }
 \note{
-%%  ~~further notes~~
+Bart was late by 13 minutes. Last day of class.  Can you believe it?
+
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+asdhjgajsdhfg
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or standard data sets, see data().
-
 ## The function is currently defined as
-function (x)
-{
-  }
+secretsanta(c("Leah","Leigha","Lea","Leeya"))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
